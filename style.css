@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", Helvetica, sans-serif;
+    border: none;
+}
+/* header - navigation section */
+.border {
+    border: 1px solid transparent;
+}
+.border:hover {
+    border: 1px solid white;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+    background-color: #0F1111;
+    padding-top: 5px;
+}
+.amazon-logo-box {
+    display: flex;
+    height: 50px;
+    width: 114px;
+}
+.amazon-logo {
+    background-image: url("amazon_logo.png");
+    height: 100%;
+    width: 100%;
+}
+.address {
+    width: 86px;
+    height: 50px;
+    color: white;
+}
+.address > p {
+    margin-left: 15px;
+    color: #CCCCCC;
+}
+.address-location {
+    display: flex;
+    gap: 5px;
+}
+.india {
+    font-weight: 700;
+}
+.search {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0;
+}
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0F1111;
+    background-color: rgb(237, 198, 4);
+    width: 45px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.search-select {
+    background-color: #E6E6E6;
+    color: #0F1111;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: x-small;
+}
+.search > input {
+    width: 100%;
+}
+.hello {
+    color: #FFFFFF;
+}
+.hello > p:first-child{
+    font-size: smaller;
+}
+.hello p:nth-child(2) {
+    font-weight: 700;
+}
+.cart {
+    color: #FFFFFF;
+}
+.cart > .fa-cart-shopping {
+    font-size: xx-large;
+}
+.cart span {
+    font-weight: 700;
+}
+/* header - panel */
+.panel {
+    background-color: #222f3d;
+    width: 100%;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.panel-first {
+    margin-left: 10px;
+}
+.panel-first span {
+    font-weight: 700;
+}
+.panel-second {
+    width: 70%;
+}
+.panel-second span {
+    font-size: 0.85rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+/* main - hero section */
+.hero {
+    background-image: url("hero_section.jpg");
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+}
+.hero p {
+    background-color: #F5F6F6;
+    color: #0F1111;
+    position: relative;
+    width: 90vw;
+    left: 5vw;
+    top: 300px;
+    padding: 10px;
+    text-align: center;
+}
+.hero a {
+    color: #2162a1;
+    text-decoration: none;
+}
+/* main - content section */
+.content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.content-box {
+    cursor: pointer;
+    width: 23%;
+    background-color: white;
+    padding: 10px;
+    margin: 15px 0;
+}
+.content-box h2{
+    margin: 5px 0;
+    color: #0F1111;
+}
+.content-box a {
+    margin: 5px 0;
+    color: #2162a1;
+    text-decoration: none;
+}
+/* footer - one */
+.foot-one {
+    height: 50px;
+    background-color: #37475a;
+    text-align: center;
+    padding-top: 15px;
+}
+.foot-one a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.foot-one:hover {
+    background-color: #404b58;
+}
+/* footer - two */
+.foot-two {
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+
+}
+.foot-two p {
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.foot-two a, .foot-two ul li {
+    list-style: none;
+    color: #DDDDDD;
+    text-decoration: none;
+    margin: 10px 0;
+}
+.foot-two ul li:hover {
+    text-decoration: underline;
+}
+/* footer - three */
+.foot-three {
+    background-color: #222f3d;
+    border-top: 2px solid white;
+    text-align: center;
+    height: 70px;
+    padding-top: 10px;
+}
+/* footer - four */
+.foot-four {
+    height: 80px;
+    background-color: #0F1111;
+}
+.foot-four ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.foot-four a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+.foot-four ul a:hover {
+    text-decoration: underline;
+}
+.foot-four p {
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
+    margin-top: 10px;
+}
