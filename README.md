@@ -2,4 +2,4 @@
 Amazon landing page using HTML and CSS
 
 ## <u>Preview of the landing page</u>
-!(./Demo)
+!(./Demo%20assets/1.png)
